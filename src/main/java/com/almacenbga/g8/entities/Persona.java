@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  *
- * @author bmao9
+ * @author Fmfarfan
  */
 @Data
 @AllArgsConstructor

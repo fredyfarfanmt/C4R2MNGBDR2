@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author bmao9
+ * @author Fmfarfan
  */
 @RestController
 @RequestMapping("api/user")
@@ -46,7 +46,7 @@ public class UserController {
     }
     
     //autenticacion al ingreso
-    @GetMapping("/emailexist/{email}/{password}")
+    @GetMapping("/{email}/{password}")
     public User findUserExistend(@PathVariable("email")String email,@PathVariable("password") String password){
         return service.findExistens(email, password);
     }
@@ -69,9 +69,4 @@ public class UserController {
     public boolean delete(@PathVariable Integer id) {
         return service.delete(id);
     }
-    
-    
-    
-    
-    
 }

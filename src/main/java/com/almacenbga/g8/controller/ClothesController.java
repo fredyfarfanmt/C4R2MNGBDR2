@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author bmao9
+ * @author Fmfarfan
  */
 @RestController
 @RequestMapping("api/clothe")

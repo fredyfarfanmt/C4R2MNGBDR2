@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
  *
- * @author bmao9
+ * @author Fmfarfan
  */
 public interface personaCrudRepository extends MongoRepository<Persona, Integer>{
     

@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author bmao9
+ * @author Fmfarfan
  */
 @Repository
 public class UserRepository {

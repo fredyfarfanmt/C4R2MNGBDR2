@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  *
- * @author bmao9
+ * @author Fmfarfan
  */
 @Data
 @AllArgsConstructor
@@ -26,62 +26,9 @@ public class Clothe{
     private String category;
     private String size;
     private String description;
-    private String availability;
-    private Integer price;
+    private boolean availability;
+    private Float price;
     private Integer quantity;
-    private String photography;
-    
-    public String getReference() {
-        return reference;
-    }
-    public void setReference(String reference) {
-        this.reference = reference;
-    }
-    public String getCategory() {
-        return category;
-    }
-    public void setCategory(String category) {
-        this.category = category;
-    }
-    public String getSize() {
-        return size;
-    }
-    public void setSize(String size) {
-        this.size = size;
-    }
-    public String getDescription() {
-        return description;
-    }
-    public void setDescription(String description) {
-        this.description = description;
-    }
-    public String getAvailability() {
-        return availability;
-    }
-    public void setAvailability(String availability) {
-        this.availability = availability;
-    }
-    public Integer getPrice() {
-        return price;
-    }
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
-    public Integer getQuantity() {
-        return quantity;
-    }
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
-    }
-    public String getPhotography() {
-        return photography;
-    }
-    public void setPhotography(String photography) {
-        this.photography = photography;
-    }
-    
-    
-
-
+    private String photography;  
 }
 
